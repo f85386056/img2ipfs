@@ -68,7 +68,7 @@ $(() => {
  	        }else{
  	        document.querySelector('.container').classList.add('start')
  	        var type = $('#id');
-  	        api = 'https://cloudflare-ipfs.com/ipfs/bafybeifx7yeb55armcsxwwitkymga5xf53dxiarykms3ygqic223w5sk3m#x-ipfs-companion-no-redirect'
+  	        api = 'https://ipfsapi.glitch.me'
             let formData = new FormData();
             formData.append('file', files[i]);
             let randomClass = Date.now().toString(36);
