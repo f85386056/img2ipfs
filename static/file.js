@@ -140,7 +140,7 @@ $(()=>{
                     }
                     ,
                     success: res=>{
-                        var imgSrc = 'https://ipfspic.imgbed.club/ipfs/' + res.Hash + "?filename=" + res.Name;
+                        var imgSrc = 'https://gateway.pinata.cloud/ipfs/' + res.Hash + "?filename=" + res.Name;
                         let img = new Image;
                         img.src = imgSrc;
                         $('#file').val(null);
