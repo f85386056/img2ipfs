@@ -68,7 +68,7 @@ $(()=>{
             } else {
                 document.querySelector('.container').classList.add('start')
                 var type = $('#id');
-                api = 'https://ipsfapi.imgbed.club/api/v0/add?pin=false'
+                api = 'https://ipfs2.imgbed.club/api/v0/add?pin=false'
                 let formData = new FormData();
                 formData.append('file', files[i]);
                 let randomClass = Date.now().toString(36);
